@@ -5,8 +5,9 @@
 }
 
 body {
-  padding: 100px;
+  height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #121212;
@@ -22,7 +23,7 @@ a:hover {
 
 .card {
   display: inline-block;
-  width: 260px;
+  width: 280px;
   border-radius: 4px;
   padding: 16px;
   overflow: hidden;
@@ -38,7 +39,6 @@ a:hover {
 .cover {
   position: relative;
   margin-bottom: 18px;
-  z-index: 1;
 }
 .cover img {
   display: block;
